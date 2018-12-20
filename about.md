@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+This site is an experiment with [JAM-stack](https://jamstack.org/). It is based on Barry Clark's [Jekyll Now](https://github.com/barryclark/jekyll-now) and is hosted with [GitHub Pages](https://pages.github.com/).
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+You can find my contact information on [jakobjankamminga.com](https://jakobjankamminga.com/)
