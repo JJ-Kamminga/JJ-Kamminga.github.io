@@ -73,7 +73,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #ff8300;
   }
 }
 
@@ -152,8 +152,11 @@ img {
   border-bottom: 1px solid #eee;
 }
 
-.page-header h1, .page-header a {
+.page-header h1, .page-header a:hover {
   color: #D4FCF8;
+  :hover {
+    color: #ff8300;
+  }
 }
 
 .page-header p {
@@ -170,7 +173,6 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -189,9 +191,6 @@ img {
     margin: 0 auto;
   }
 
-  img {
-    border-radius: 5px;
-  }
 }
 
 .site-info {
@@ -289,7 +288,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #def2ef;
 }
 
 footer {
