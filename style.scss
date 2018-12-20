@@ -154,9 +154,10 @@ img {
 
 .page-header h1, .page-header a:hover {
   color: #D4FCF8;
-  :hover {
-    color: #ff8300;
-  }
+}
+
+.page-header nav:active {
+  color: #ff8300;
 }
 
 .page-header p {
