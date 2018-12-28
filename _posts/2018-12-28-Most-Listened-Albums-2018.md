@@ -2,10 +2,10 @@
 layout: post
 title: My most-listened albums of 2018
 ---
-## Hooray Last.fm
-You could say that I love Last.fm. Well, specifically the fact that it measures my exact listening behaviour down to the single song. This lets me complement my yearly favourite album list with an I would say more telling list: the most-listened albums of the year.
+### Hooray Last.fm
+You could say that I love [Last.fm](https://www.last.fm/user/andnino). Well, specifically the fact that it measures my exact listening behaviour down to the single song. This lets me complement my yearly favourite album list with an I would say more telling list: the most-listened albums of the year.
 
-## A lot of new stuff
+### A lot of new stuff
 Although it hasn't produced any "instant classics" for me, 2018 was a good year musically, and that is reflected in my most listened albums. This might actually be a first with the amount of "new" albums in this list: a whopping nine out of ten!
 
 || Artist        | Album           |Year|
@@ -24,5 +24,5 @@ Although it hasn't produced any "instant classics" for me, 2018 was a good year 
 
 Funny enough, like in my last list I have a shared number 10 spot (118 scrobbles each).
 
-## More lists!
+### Even more lists!
 ...and of course, more lists on the way! I am also thinking of ways to combine lists in interesting ways, any input is always appreciated!
