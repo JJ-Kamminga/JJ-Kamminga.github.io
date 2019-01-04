@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Compare tool
+layout: compare_tool
+title: List compare tool
 permalink: /compare/
 ---
 

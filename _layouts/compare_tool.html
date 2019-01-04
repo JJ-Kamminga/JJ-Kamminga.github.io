@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+      <script src="/js/comparetool_script.js"></script>
+
+  </head>
+
+  <body>
+    <div class="page-header">
+      <div class="wrapper-masthead">
+        <div class="container">
+          <header class="masthead clearfix">
+            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+            <div class="site-info">
+              <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+              <p class="site-description">{{ site.description }}</p>
+            </div>
+
+            <nav>
+              <a href="{{ site.baseurl }}/">Blog</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+              <a href="{{ site.baseurl }}/compare">List compare tool</a>
+            </nav>
+          </header>
+        </div>
+      </div>
+    </div>
+    <div id="main" role="main" class="container">       
+      <article class="page">
+        <h1>{{ page.title }}</h1>
+        <div class="entry">
+          <div class="main">
+              {{ content }}
+              <p>You are currently comparing <select class="dataSelect" id="country-select1">
+                <option>Select a Country</option>
+                </select> against <select class="dataSelect" id="country-select2">
+                <option>Select a Country</option>
+                </select></p>
+              
+              <table class="country-table">
+                <thead class="country-table-head">
+                  <tr>
+                    <th></th>
+                    <th id="country-header1"></th>
+                    <th id="country-header2"></th>
+                  </tr>
+                </thead>
+                <tbody class="country-table-body">
+                  <tr>
+                    <th>Capital City</th>
+                    <td id="country-capital1"></td>
+                    <td id="country-capital2"></td>
+                  </tr>
+                  <tr>
+                    <th>Region</th>
+                    <td id="country-region1"></td>
+                    <td id="country-region2"></td>
+                  </tr>
+                  <tr>
+                    <th>Sub Region</th>
+                    <td id="country-sub-region1"></td>
+                    <td id="country-sub-region2"></td>
+                  </tr>
+                  <tr>
+                    <th>Population</th>
+                    <td id="country-population1"></td>
+                    <td id="country-population2"></td>
+                  </tr>
+                  <tr>
+                    <th>Top Level Domain</th>
+                    <td id="country-domain1"></td>
+                    <td id="country-domain2"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>        
+        </div>
+      </article>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
