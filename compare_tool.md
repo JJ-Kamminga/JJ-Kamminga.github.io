@@ -1,10 +1,11 @@
 ---
-layout: compare_tool
+layout: page
 title: List compare tool
 permalink: /compare/
 ---
 
 This page is a sandbox for a work in progress list comparison tool.
+<script src="js/comparetool_script.js"></script>
 
 <p>You are currently comparing <select class="dataSelect" id="country-select1">
 <option>Select a list</option>
