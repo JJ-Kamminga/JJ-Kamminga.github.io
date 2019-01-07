@@ -48,7 +48,7 @@ This page is a sandbox for a work in progress list comparison tool.
       </tr>
     </tbody>
   </table>
-<script>
+<!--<script>
     $('.dataSelect').change(function() {
     const selection = $(this).val()
     let dataColumn = $(this).attr('id')
@@ -63,4 +63,4 @@ This page is a sandbox for a work in progress list comparison tool.
         $(`#country-domain${columnNum}`).html(country.topLevelDomain)
     })
     })
-</script>
+</script>-->
