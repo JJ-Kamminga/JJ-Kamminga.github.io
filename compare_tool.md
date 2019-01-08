@@ -48,19 +48,3 @@ This page is a sandbox for a work in progress list comparison tool.
       </tr>
     </tbody>
   </table>
-<!--<script>
-    $('.dataSelect').change(function() {
-    const selection = $(this).val()
-    let dataColumn = $(this).attr('id')
-    let columnNum = dataColumn.substr(dataColumn.length - 1)
-    countriesData.done((data) => {
-        const country = data.find((country) => country.alpha2Code === selection)
-        $(`#country-header${columnNum}`).html(`${country.nativeName}</br>${country.name}</br ><img class="country-flag" src="${country.flag}">`)
-        $(`#country-capital${columnNum}`).html(country.capital)
-        $(`#country-region${columnNum}`).html(country.region)
-        $(`#country-sub-region${columnNum}`).html(country.subregion)
-        $(`#country-population${columnNum}`).html(country.population)
-        $(`#country-domain${columnNum}`).html(country.topLevelDomain)
-    })
-    })
-</script>-->
