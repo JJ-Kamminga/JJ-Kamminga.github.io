@@ -336,7 +336,11 @@ table th {
 footer {
   padding: 20px 0;
   text-align: center;
+  p {
+    font-size: 0.8rem;
+    opacity: 0.7;  
 }
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
