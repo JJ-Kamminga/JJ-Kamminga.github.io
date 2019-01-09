@@ -227,7 +227,36 @@ table tbody td {
     display: block;
     margin: 0 auto;
   }
-
+  &:hover {
+    animation: heartbeat .5s infinite linear;
+  }
+}
+@keyframes heartbeat {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+  }
+  75% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 .site-info {
